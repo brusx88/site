@@ -1,0 +1,28 @@
+.advant {
+    background: url('../../img/about.png') center center / cover no-repeat;
+}
+
+.using, {
+    width: 40%;
+}
+
+.using-right {
+    width: 40%;
+}
+
+
+
+.using__item {
+
+}
+
+.advant__item-content-img {
+    width: 50vw;
+    height: 20vh;
+    
+}
+
+.using__item-content {
+    color:  #233249;
+    font-size: 19px;
+}

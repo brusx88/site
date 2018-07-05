@@ -1,0 +1,73 @@
+
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Myriad";
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    background: url('../img/slider/back.jpg') center center / cover repeat;
+    background: #233249;
+    color: #ffffff
+}
+
+.container {
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    align-items: center;  
+}
+
+.container--flex {
+    flex-direction: column;
+}
+
+.container--space {
+    justify-content: space-around;
+}
+
+.maincontent {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+.section {
+    max-width: 100%;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+} 
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    margin: 0;
+}
+
+.to-down {
+    position: fixed;
+    bottom: 10%;
+    right: 20px;
+    background-image: url('../img/slider/toup.png');
+    background-size: cover;
+    width: 84px;
+    height: 65px;
+}

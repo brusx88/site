@@ -1,0 +1,122 @@
+.header {
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+/* logo */
+
+.header__logo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    padding-top: 20px;
+}
+
+.header__logo {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.header__logo-img {
+    height: 100%;
+    width: 100%;
+}
+
+.header__logo-subtext {
+    font-size: 10px;
+}
+
+/* wrap */
+
+.header__wrap {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+/* contacts */
+
+.header__contacts {
+    display: flex;
+    margin-left: auto;
+}
+
+.header__contacts-wrap {
+    margin-right: 32px;
+}
+
+.header__contacts-wrap__number {
+    color:  #233249;
+    font-size: 24px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.header__contacts-wrap__number:before {
+    content: "";
+    display: inline-block;
+    background: url('../../icons/telephone.png') center center / cover no-repeat;
+    width: 39px;
+    height: 37px;
+}
+
+.header__contacts-wrap__order {
+    color:  #233249;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header__contacts-wrap__order:before {
+    content: "";
+    display: inline-block;
+    background: url('../../icons/trubka.png') center center / cover no-repeat;
+    width: 39px;
+    height: 37px;
+}
+
+
+
+/* navigation */
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 20px;
+    position: relative;
+}
+
+.nav__item--active:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    border-bottom: 3px solid  rgba(255, 255, 255, 0.7);
+    width: 100%;
+}
+
+.nav__item:hover:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.7);
+    width: 100%;
+    transition: .3s
+}
+
+
+
+.nav__item-link {
+    color:  #233249;
+    font-size: 20px;
+    font-weight: 400;
+    transition: .3s
+}
+
+.nav__item-link:hover {
+    color: rgba(255, 255, 255, 0.7)
+}

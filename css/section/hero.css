@@ -1,0 +1,6 @@
+.hero {
+    background: url(../../img/hero.png) center center / cover no-repeat ;
+    height: 100vh;
+    color:  #233249;
+    margin-bottom: 100px;
+}
