@@ -4,3 +4,10 @@
     font-style: normal;
     font-weight: normal;
   }
+
+  @font-face {
+    font-family: 'Myriad-Web';
+    src: url('../../fonts/Myriad-Web.woff') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }

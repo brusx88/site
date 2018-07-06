@@ -1,6 +1,12 @@
 .header {
-    padding-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 15%;
+}
+
+/* hamburger */
+
+.hamburger {
+    display: none;
+    font-size: 30px
 }
 
 /* logo */
@@ -9,13 +15,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20%;
+    width: 250px;
     padding-top: 20px;
 }
 
 .header__logo {
     width: 150px;
-    height: 50px;
+    height: 30px;
     margin-bottom: 10px;
 }
 
@@ -41,44 +47,53 @@
 .header__contacts {
     display: flex;
     margin-left: auto;
+    margin-bottom: 35px;
 }
 
 .header__contacts-wrap {
-    margin-right: 32px;
+    margin-right: 82px;
 }
 
 .header__contacts-wrap__number {
+    display: inline-block;
     color:  #233249;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
-    vertical-align: middle;
 }
 
 .header__contacts-wrap__number:before {
     content: "";
     display: inline-block;
     background: url('../../icons/telephone.png') center center / cover no-repeat;
-    width: 39px;
-    height: 37px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
 }
 
 .header__contacts-wrap__order {
     color:  #233249;
     font-size: 18px;
     font-weight: 400;
+    vertical-align: middle;
+    background-color: transparent;
+    border: none 
 }
 
 .header__contacts-wrap__order:before {
     content: "";
     display: inline-block;
     background: url('../../icons/trubka.png') center center / cover no-repeat;
-    width: 39px;
-    height: 37px;
+    width: 30px;
+    height: 30px;
 }
 
 
 
 /* navigation */
+
+.header__nav {
+    margin: auto;;
+}
 
 .nav__list {
     display: flex;
@@ -112,7 +127,7 @@
 
 .nav__item-link {
     color:  #233249;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     transition: .3s
 }

@@ -1,0 +1,128 @@
+@media screen and (max-width: 1200px) {
+    /* hero */
+    
+    .header__contacts-wrap__number {
+        font-size: 2vw
+    }
+
+    .header__contacts-wrap__number:before {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .header__contacts-wrap__order {
+        font-size: 2vw
+    }
+
+    .header__contacts-wrap__order:before {
+        width: 5vw;
+        height: 5vw;
+    }  
+    
+    .nav__item-link {
+        font-size: 1.5vw
+    }
+
+    /* free-test */
+
+    .free-test {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .free-test__link {
+        font-size: 1.2vw
+    }
+
+    /* to-down */
+
+    .to-down {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    /* slider */
+
+
+}
+
+@media screen and (max-width: 1050px) { 
+    .using {
+        width: 100%;
+    }
+    
+    .advant__item-content-img {
+        display: none;
+    }
+
+    .using__item-content-text {
+        background: rgb(189, 181, 181, .3);
+        border: 2px solid rgba(107, 104, 104, 0.3); 
+        border-radius: 20px;
+        width: 400px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .header__wrap {
+        flex-direction: column;
+    }
+    
+    .header__nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: auto;
+    }
+
+    .header__contacts {
+        flex-direction: column;
+    }
+
+    .section-title-text {
+        font-size: 3vw
+    }
+
+    /* slider */
+
+    .slider__title {
+        margin-bottom: 5px;
+    }
+
+    .slider__title-text {
+        font-size: 3.5vw
+    }
+
+    .slider__content {
+        font-size: 2vw;
+        margin-bottom: 10px;
+    }
+
+    .slider__buttons {
+        margin-bottom: 40px;
+    }
+
+    .button-more {
+        font-size: 2.5vw;
+    }
+
+    .button-order {
+        padding: 8px 10px;
+        font-size: 2vw
+    }
+
+    .slider__img {
+        width: 150px;
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {  
+    .section-title-text {
+        padding-top: 5px;
+    }
+}

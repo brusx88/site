@@ -1,12 +1,13 @@
 .services {
-    background: url('../../img/services.png') center center / cover no-repeat;
+    background: url('../../img/services.png') center center /cover no-repeat;
 }
 
 /* title */
 .services__title {
-    width: 190px;
+    width: 200px;
     text-align: center;
     margin-bottom: 30px;
+    margin-right: auto;
 }
 
 .services__title:after {

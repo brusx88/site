@@ -2,27 +2,42 @@
     background: url('../../img/about.png') center center / cover no-repeat;
 }
 
-.using, {
+.using {
     width: 40%;
 }
-
-.using-right {
-    width: 40%;
-}
-
-
 
 .using__item {
-
+    position: relative;
+    margin-bottom: 30px;
 }
 
 .advant__item-content-img {
-    width: 50vw;
-    height: 20vh;
-    
+    width: 100%;
+    height: 140px;
+}
+
+.advant__item-content-img:hover
+{
+    -webkit-animation: swing 1s ease;
+    animation: swing 2s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 2;
 }
 
 .using__item-content {
     color:  #233249;
     font-size: 19px;
+}
+
+.using__item-content-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
 }

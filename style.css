@@ -1,4 +1,6 @@
 @import 'css/layout/normalize.css';
+@import 'css/font-awesome.css';
+@import 'css/layout/animate.css';
 @import 'css/layout/layout.css';
 @import 'css/section/hero.css';
 @import 'css/blocks/header.css';
@@ -8,5 +10,8 @@
 @import 'css/section/services.css';
 @import 'css/section/advant.css';
 @import 'css/section/about.css';
+@import 'css/blocks/footer.css';
+@import 'css/blocks/toup.css';
+@import 'css/layout/media.css';
 
 
