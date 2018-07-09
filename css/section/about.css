@@ -6,3 +6,7 @@
 .about__item {
     list-style-type: disc;
 }
+
+.about__list {
+   padding-left: 20px;
+}

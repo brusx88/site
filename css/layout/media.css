@@ -42,7 +42,9 @@
     }
 
     /* slider */
-
+    .slider {
+        margin-bottom: 2%;
+    }
 
 }
 
@@ -51,22 +53,19 @@
         width: 100%;
     }
     
-    .advant__item-content-img {
-        display: none;
-    }
 
-    .using__item-content-text {
-        background: rgb(189, 181, 181, .3);
-        border: 2px solid rgba(107, 104, 104, 0.3); 
-        border-radius: 20px;
-        width: 400px;
-        height: 100px;
+    .slider {
+        margin-bottom: 4%;
     }
 }
 
 @media screen and (max-width: 768px) { 
     .header__wrap {
         flex-direction: column;
+    }
+
+    .header__logo-subtext {
+        font-size: 8px
     }
     
     .header__nav {
@@ -76,10 +75,15 @@
     .hamburger {
         display: block;
         margin-left: auto;
+        margin-bottom: 10px;
     }
 
     .header__contacts {
         flex-direction: column;
+    }
+
+    .header__contacts-wrap {
+        margin: 0 0 20px 0
     }
 
     .section-title-text {
@@ -87,6 +91,10 @@
     }
 
     /* slider */
+
+    .slider {
+        margin-bottom: 10%;
+    }
 
     .slider__title {
         margin-bottom: 5px;
@@ -115,14 +123,42 @@
     }
 
     .slider__img {
-        width: 150px;
-        height: 100px;
+        width: 100px;
+        height: 70px;
+    }
+
+    /* advant */
+
+    .container--space {
+        flex-direction: column;
     }
 
 }
 
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 480px) {  
     .section-title-text {
         padding-top: 5px;
+    }
+
+    .slider {
+        margin-bottom: 44%;
+    }
+
+    .slider__img {
+        width: 70px;
+        height: 40px;
+    }
+
+    .slider__buttons {
+        margin-bottom: 20px;
+    }
+
+    .header__logo {
+        width: 110px;
+        height: 25px;
+
+    }
+    .header__logo-subtext {
+        font-size: 2vw
     }
 }

@@ -2,8 +2,8 @@
     background: url(../../icons/title.png)center center / contain no-repeat;
     height: 70px;
     width: 87%; 
-    padding: 25px 0 0 50px ;
-    margin-bottom: 30px;
+    padding: 25px 0 0 65px ;
+    margin-bottom: 50px;
 }
 
 .section-title-text {
@@ -15,7 +15,12 @@
 
 .section-title--none {
     background: none;
-    
+    font-size: 14px;
+}
+
+.seldon-title__text {
+    font-size: 20px;
+    color: #233249;
 }
 
 

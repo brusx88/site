@@ -2,6 +2,12 @@
     margin-bottom: 15%;
 }
 
+.header--background {
+    margin-bottom: 0;
+    background:#03f3c1; 
+    height: 150px;
+}
+
 /* hamburger */
 
 .hamburger {
@@ -51,11 +57,12 @@
 }
 
 .header__contacts-wrap {
-    margin-right: 82px;
+    margin-right: 75px;
 }
 
 .header__contacts-wrap__number {
     display: inline-block;
+    position: relative;
     color:  #233249;
     font-size: 18px;
     font-weight: 700;
@@ -64,7 +71,11 @@
 .header__contacts-wrap__number:before {
     content: "";
     display: inline-block;
-    background: url('../../icons/telephone.png') center center / cover no-repeat;
+    position: absolute;
+    top: 50%;
+    left: -13%;
+    transform: translate(-50%, -50%);
+    background: url('../../icons/telephone.png') center center / contain no-repeat;
     width: 30px;
     height: 30px;
     margin-right: 5px;
@@ -75,16 +86,23 @@
     font-size: 18px;
     font-weight: 400;
     vertical-align: middle;
+    position: relative;
     background-color: transparent;
-    border: none 
+    border: none ;
+    cursor: pointer;
 }
 
 .header__contacts-wrap__order:before {
     content: "";
     display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: -13%;
     background: url('../../icons/trubka.png') center center / cover no-repeat;
     width: 30px;
     height: 30px;
+    margin-right: 5px;
 }
 
 

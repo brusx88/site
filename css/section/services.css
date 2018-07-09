@@ -4,7 +4,6 @@
 
 /* title */
 .services__title {
-    width: 200px;
     text-align: center;
     margin-bottom: 30px;
     margin-right: auto;
@@ -15,7 +14,6 @@
     display: block;
     border-bottom: 4px solid  rgba(255, 255, 255, 0.7);
     width: 100%;
-
 }
 
 .services__title-text {
@@ -40,6 +38,8 @@
     width: 33%;
     min-width: 260px;
     height: 260px;
+    visibility: visible;
+    animation-name: flipInY;
 }
 
 .financial-services__button {
@@ -69,9 +69,6 @@
 
 }
 
-
-
-
 .financial-services__button-img {
     position: relative;
     margin-bottom: 20px;
@@ -92,6 +89,83 @@
 
 .financial-services__button-content {
     position: absolute;
+    top: 45%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    width: 100px;
+    text-align: center;
 }
+
+
+.financial-services__button-content-text {
+    font-size: 10px;
+    color: #233249;
+}
+
+.financial-services__button-content-text:before {
+    content: "";
+    display: block;
+    background: url('../../icons/money.png') center center / contain no-repeat; 
+    width: 100px;
+    height: 50px;
+}
+
+.financial-services__button-content-text--2:before {
+    background: url('../../icons/clock.png') center center / contain no-repeat; 
+
+}
+
+.financial-services__button-content-text--3:before {
+    background: url('../../icons/dollar.png') center center / contain no-repeat; 
+
+}
+
+.financial-services__button-content-text--4:before {
+    background: url('../../icons/konv.png') center center / contain no-repeat; 
+
+}
+
+.financial-services__button-content-text--5:before {
+    background: url('../../icons/contract.png') center center / contain no-repeat; 
+
+}
+
+.financial-services__button-content-text--6:before {
+    background: url('../../icons/hands.png') center center / contain no-repeat; 
+
+}
+
+/* button */
+
+.stud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.services__title--left {
+    margin-right: auto;
+}
+
+
+
+.stud-button__btn {
+    border: none;
+    border-radius: 30px;
+    background: url('../../icons/button.png') center center / cover no-repeat;
+    padding: 10px 20px;
+    width: 370px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.stud-button__btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
 
 
